@@ -45,6 +45,17 @@
             background-color: #1f1f1f;
             color: #e0e0e0;
         }
+        .hero-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+        }
+        .hero-image {
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
     </style>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <script defer src="script.js"></script>
@@ -74,10 +85,13 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="text-center py-5">
-        <div class="container">
-            <h1>Welcome to Mukul's Portfolio</h1>
-            <p class="lead">Programmer | Tech Enthusiast | Problem Solver</p>
+    <header class="py-5">
+        <div class="container hero-section">
+            <img src="images/potrait.png" alt="Mukul" class="hero-image">
+            <div>
+                <h1>Welcome to Mukul's Portfolio</h1>
+                <p class="lead">Programmer | Tech Enthusiast | Problem Solver</p>
+            </div>
         </div>
     </header>
 
